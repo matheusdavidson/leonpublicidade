@@ -1,0 +1,70 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,700italic,400italic);
+@import url(angular-material.css);
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: Roboto, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .010em;
+    line-height: 1.6em;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    color: #FFED00;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.text a {
+    color: #FFED00;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.text a:hover {
+    opacity: .5;
+}
+
+.social {
+    margin-top: 30px;
+}
+.social a {
+    background-color: #FFED00;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+.social a i {
+    margin-top: 5px;
+}
+.social a:hover {
+    opacity: .5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
